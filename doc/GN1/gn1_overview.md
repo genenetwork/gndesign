@@ -1,1 +1,29 @@
 # GN1 Overview
+
+Genenetwork was originally implemented as a web-based service in 1994
+(one of the first in biology) as
+[The Portable Dictionary of the Mouse Genome](http://dx.doi.org/10.1007/BF00356557)
+and rebranded in 2001 as WebQTL and later again as Genenetwork
+(GN). The great assets of GN are:
+
+1. sophisticated web-based tools for anyone who can use a browser
+2. immediate access to a large Mouse genetics database
+3. explore and create new hypothesis using GN tools generating figures
+   *ON THE FLY*.
+
+Unlike most genetic web based tools GN allows for interactive
+exploration of new and existing datasets over the web.
+
+The architecture consists of an HTML/JS front-end and Python with
+MySQL database backend.
+
+Genenetwork1 is soon going to be replaced by a rewritten Web2.0
+edition termed [Genenetwork2](http://gn2.genenetwork.org/).
+
+## HTML front-end
+
+## Python back-end
+
+## MySQL database
+
+

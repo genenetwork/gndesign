@@ -1,1 +1,65 @@
 # GN1 Features
+
+## Online tour and tutorial
+
+GN1 comes with an online tour and tutorial. The tour gives an example
+of selecting data based on a keyword search (a gene name) followed by
+selecting expression probes that hits against the gene. Selecting
+probes can give statistics, gene ontology type information and also
+covariation of expression, correlations between probes and a host of
+other functionality (see below).
+
+## Documentation
+
+GN1 comes with a [user guide](http://www.genenetwork.org/index4.html).
+
+A freely downloadable GN1 primer with a focus on exploring the genetic
+control and analysis of behavioral variation using powerful online
+resources is available from
+[INTERNATIONAL REVIEW OF NEUROBIOLOGY (Vol 104, p135-158 2012) Bioinformatics of Behavior: Part 2](http://www.genenetwork.org/images/upload/Williams_Mulligan_Bioinformatics%20of%20Brain%20Short%202012.pdf).
+
+## Search
+
+GN1 has a powerful search feature to mine for (trait) datasets.
+
+### Species
+
+In the first field select the species. Options include human, model
+organisms mouse, rat, Arabidopsis *thaliana* and others, such as
+monkey and barley.
+
+### Group
+
+In the second field select the group information, usually a cross type for model
+species or a tissue/experiment for the others.
+
+### Data type
+
+In the third field select the data type. Options include phenotype,
+genotype (marker), and for Mouse a host of neurological mRNA related data
+types (expression).
+
+### Data set
+
+In this field experimental sets can be selected for
+
+### Get any
+
+This is the first search field which can look for simple terms using wild cards.
+
+### Combined
+
+The combined search field allows for logical AND searches. The
+searches allow looking for keywords (diabetes, nicotine), chromosome
+locations (QTL, markers, genes, transcripts), GO terms, etc.
+
+It is a bit tricky to find searches that match datasets. But once you
+have a working selection it is also printed on the results page: E.g.,
+GeneNetwork searched the GE-NIAAA Cerebellum mRNA M430v2 (May05) RMA
+Database for all records with MEAN between 1 and 16 and with LRS
+between 23 and 46. GeneNetwork found a total of 923 records.
+
+Once you have a selection you can select phenotypes and (for example)
+generate a QTL plot on the fly. 
+
+
