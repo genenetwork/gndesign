@@ -1,9 +1,16 @@
-# GN1 Overview
+#+TITLE: GN1 Overview
+
+* Table of Contents                                                     :TOC:
+ - [[#introduction][Introduction]]
+ - [[#html-front-end][HTML front-end]]
+ - [[#python-back-end][Python back-end]]
+ - [[#mysql-database][MySQL database]]
+
+* Introduction
 
 Genenetwork was originally implemented as a web-based service in 1994
-(one of the first in biology) as
-[The Portable Dictionary of the Mouse Genome](http://dx.doi.org/10.1007/BF00356557)
-and rebranded in 2001 as WebQTL and later again as Genenetwork
+(one of the first in biology) as [[http://dx.doi.org/10.1007/BF00356557][The Portable Dictionary of the Mouse
+Genome]] and rebranded in 2001 as WebQTL and later again as Genenetwork
 (GN). The great assets of GN are:
 
 1. sophisticated web-based tools for anyone who can use a browser
@@ -18,12 +25,12 @@ The architecture consists of an HTML/JS front-end and Python with
 MySQL database backend.
 
 Genenetwork1 is soon going to be replaced by a rewritten Web2.0
-edition termed [Genenetwork2](http://gn2.genenetwork.org/).
+edition termed [[http://gn2.genenetwork.org/][Genenetwork2]].
 
-## HTML front-end
+* HTML front-end
 
-## Python back-end
+* Python back-end
 
-## MySQL database
+* MySQL database
 
 

@@ -1,6 +1,17 @@
-# GN1 Features
+#+TITLE: GN1 Features
 
-## Online tour and tutorial
+* Table of Contents                                                     :TOC:
+ - [[#online-tour-and-tutorial][Online tour and tutorial]]
+ - [[#documentation][Documentation]]
+ - [[#search][Search]]
+     - [[#species][Species]]
+     - [[#group][Group]]
+     - [[#data-type][Data type]]
+     - [[#data-set][Data set]]
+     - [[#get-any][Get any]]
+     - [[#combined][Combined]]
+
+* Online tour and tutorial
 
 GN1 comes with an online tour and tutorial. The tour gives an example
 of selecting data based on a keyword search (a gene name) followed by
@@ -9,7 +20,7 @@ probes can give statistics, gene ontology type information and also
 covariation of expression, correlations between probes and a host of
 other functionality (see below).
 
-## Documentation
+* Documentation
 
 GN1 comes with a [user guide](http://www.genenetwork.org/index4.html).
 
@@ -18,36 +29,36 @@ control and analysis of behavioral variation using powerful online
 resources is available from
 [INTERNATIONAL REVIEW OF NEUROBIOLOGY (Vol 104, p135-158 2012) Bioinformatics of Behavior: Part 2](http://www.genenetwork.org/images/upload/Williams_Mulligan_Bioinformatics%20of%20Brain%20Short%202012.pdf).
 
-## Search
+* Search
 
 GN1 has a powerful search feature to mine for (trait) datasets.
 
-### Species
+** Species
 
 In the first field select the species. Options include human, model
 organisms mouse, rat, Arabidopsis *thaliana* and others, such as
 monkey and barley.
 
-### Group
+** Group
 
 In the second field select the group information, usually a cross type for model
 species or a tissue/experiment for the others.
 
-### Data type
+** Data type
 
 In the third field select the data type. Options include phenotype,
 genotype (marker), and for Mouse a host of neurological mRNA related data
 types (expression).
 
-### Data set
+** Data set
 
 In this field experimental sets can be selected for
 
-### Get any
+** Get any
 
 This is the first search field which can look for simple terms using wild cards.
 
-### Combined
+** Combined
 
 The combined search field allows for logical AND searches. The
 searches allow looking for keywords (diabetes, nicotine), chromosome
