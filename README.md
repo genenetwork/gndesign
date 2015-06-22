@@ -8,12 +8,20 @@ Genenetwork (a work in progress).
 GN allows for *interactive exploration* of new and existing genetics
 datasets over the web.
 
-Essentially Genenetwork is a web front-end written in Javascript with
-a Python back-end on top of a MySQL database. Genenetwork2 is a
-complete reimplementation of Genenetwork1 and will replace the latter
-in the near future.
+GeneNetwork contains a coherent `universe' of data as well as many
+powerful analytic tools
 
-* Start exploring the Genenetwork1 docs [here](https://github.com/genenetwork/gndesign/blob/master/doc/GN1/gn1_overview.org).
+Essentially Genenetwork is a web front-end written in Javascript with
+a Python back-end (which calls into R and C tools for computations) on
+top of a MySQL database.
+
+* Start exploring the Genenetwork1 [website](http://www.genenetwork.org/) and [docs](https://github.com/genenetwork/gndesign/blob/master/doc/GN1/gn1_overview.org).
+
+Genenetwork2 is a complete reimplementation of Genenetwork1 and will
+replace the latter in the near future.
+
+* Start exploring the Genenetwork2
+  [website](http://gn2.genenetwork.org/) and docs (not yet here).
 
 ## Notes
 

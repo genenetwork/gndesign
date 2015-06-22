@@ -10,6 +10,7 @@
      - [[#data-set][Data set]]
      - [[#get-any][Get any]]
      - [[#combined][Combined]]
+     - [[#search-examples][Search examples]]
 
 * Online tour and tutorial
 
@@ -22,22 +23,41 @@ other functionality (see below).
 
 * Documentation
 
-GN1 comes with a [user guide](http://www.genenetwork.org/index4.html).
+GN1 comes with an online [[http://www.genenetwork.org/index4.html][user guide]].
 
 A freely downloadable GN1 primer with a focus on exploring the genetic
 control and analysis of behavioral variation using powerful online
-resources is available from
-[INTERNATIONAL REVIEW OF NEUROBIOLOGY (Vol 104, p135-158 2012) Bioinformatics of Behavior: Part 2](http://www.genenetwork.org/images/upload/Williams_Mulligan_Bioinformatics%20of%20Brain%20Short%202012.pdf).
+resources is available from [[http://www.genenetwork.org/images/upload/Williams_Mulligan_Bioinformatics%20of%20Brain%20Short%202012.pdf][INTERNATIONAL REVIEW OF NEUROBIOLOGY]] (Vol
+104, p135-158 2012 by Robert W. Williams and Megan K. Mulligan
+Bioinformatics of Behavior: Part 2). Despite its specific audience it
+is mostly generic. The generalized abstract could be read as:
+
+This chapter provides an introduction into genetic control and
+analysis of phenotype variation using powerful online resources. We
+introduce you to the new field of systems genetics using case studies
+that exploit populations of genetically diverse lines of mice. These
+lines differ very widely in patterns of gene and protein expression
+and in (classical) phenotypes. We address the following set of related
+questions: (1) Can we combine massive genomic data sets with large
+aggregates of precise quantitative phenotypical data? (2) Can we map
+causal relations between gene variants and phenotypical differences?
+(3) Can we simultaneously use these highly coherent data sets to
+understand more about the underlying molecular and cellular basis of
+these phenotypes.
 
 * Search
 
-GN1 has a powerful search feature to mine for (trait) datasets.
+When entering the first screen of the website a global search is
+presented.
+
+GN1 has a powerful search feature to mine for the experiments that are
+included in the large database.
 
 ** Species
 
 In the first field select the species. Options include human, model
-organisms mouse, rat, Arabidopsis *thaliana* and others, such as
-monkey and barley.
+organisms mouse, rat, Arabidopsis *thaliana* and others (such as
+monkey, tomato and barley).
 
 ** Group
 
@@ -47,16 +67,17 @@ species or a tissue/experiment for the others.
 ** Data type
 
 In the third field select the data type. Options include phenotype,
-genotype (marker), and for Mouse a host of neurological mRNA related data
-types (expression).
+genotype (marker), and for Mouse (for example) a host of neurological
+mRNA related data types (expression).
 
 ** Data set
 
-In this field experimental sets can be selected for
+In this field experimental sets can be selected for.
 
 ** Get any
 
-This is the first search field which can look for simple terms using wild cards.
+This is the first search field which can look for simple terms using
+wild cards.
 
 ** Combined
 
@@ -70,7 +91,15 @@ GeneNetwork searched the GE-NIAAA Cerebellum mRNA M430v2 (May05) RMA
 Database for all records with MEAN between 1 and 16 and with LRS
 between 23 and 46. GeneNetwork found a total of 923 records.
 
+# Note: a missed search leads to a somewhat ungratifying result
+
+# Note: metadata in RDF would allow for creating sophisticated menus
+
 Once you have a selection you can select phenotypes and (for example)
 generate a QTL plot on the fly. 
 
+** Search examples
+
+On the main search screen there are some examples, but click the 
+link to the [[http://www.genenetwork.org/index4.html][user guide]] to see full examples.
 

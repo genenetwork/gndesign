@@ -5,27 +5,33 @@
  - [[#html-front-end][HTML front-end]]
  - [[#python-back-end][Python back-end]]
  - [[#mysql-database][MySQL database]]
+ - [[#other-documents][Other documents]]
+     - [[#features-][Features ]]
 
 * Introduction
 
 Genenetwork was originally implemented as a web-based service in 1994
-(one of the first in biology) as [[http://dx.doi.org/10.1007/BF00356557][The Portable Dictionary of the Mouse
-Genome]] and rebranded in 2001 as WebQTL and later again as Genenetwork
-(GN). The great assets of GN are:
+(the early days of the internet and one of the first in biology) as
+[[http://dx.doi.org/10.1007/BF00356557][The Portable Dictionary of the Mouse Genome]] and rebranded in 2001 as
+WebQTL and later again as Genenetwork (GN). The great assets of GN
+are:
 
-1. sophisticated web-based tools for anyone who can use a browser
+1. sophisticated web-based tools 
 2. immediate access to a large Mouse genetics database
 3. explore and create new hypothesis using GN tools generating figures
-   *ON THE FLY*.
+   *ON THE FLY*
+4. data on other species such as Rat, Arabidopsis etc., also in the database
 
-Unlike most genetic web based tools GN allows for interactive
-exploration of new and existing datasets over the web.
+Unlike most genetic web based tools GN allows for *interactive*
+exploration of new and existing datasets over the web with on the fly
+calculations.
 
-The architecture consists of an HTML/JS front-end and Python with
-MySQL database backend.
+The GN1 architecture consists of an HTML/JS front-end and Python with
+a MySQL database backend.
 
-Genenetwork1 is soon going to be replaced by a rewritten Web2.0
-edition termed [[http://gn2.genenetwork.org/][Genenetwork2]].
+*Note:* Genenetwork1 is soon going to be replaced by a rewritten
+Web2.0 edition termed [[http://gn2.genenetwork.org/][Genenetwork2]]. See also the [[Genenetwork2
+documents]] (TODO).
 
 * HTML front-end
 
@@ -33,4 +39,8 @@ edition termed [[http://gn2.genenetwork.org/][Genenetwork2]].
 
 * MySQL database
 
+* Other documents
 
+** Features 
+
+Explore features in the [[https://github.com/genenetwork/gndesign/blob/master/doc/GN1/gn1_features.org][Genenetwork1 Features]] document.
