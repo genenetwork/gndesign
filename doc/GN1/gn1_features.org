@@ -1,6 +1,12 @@
 #+TITLE: GN1 Features
 
-* Table of Contents                                                     :TOC:
+* Table of Contents 							:TOC:
+ - [[#introduction][Introduction]]
+ - [[#use-cases][Use cases]]
+     - [[#explore-experiments-stored-in-the-database][Explore experiments stored in the database]]
+     - [[#select-and-explore-each-phenotype-stored-in-an-experiment][Select and explore each phenotype stored in an experiment]]
+     - [[#select-multiple-phenotypes][Select multiple phenotypes]]
+     - [[#compare-multiple-experiments-for-genotype-by-environment][Compare multiple experiments for genotype by environment]]
  - [[#online-tour-and-tutorial][Online tour and tutorial]]
  - [[#documentation][Documentation]]
  - [[#search][Search]]
@@ -11,6 +17,53 @@
      - [[#get-any][Get any]]
      - [[#combined][Combined]]
      - [[#search-examples][Search examples]]
+
+* Introduction
+
+This document lists all the features attributed to GN1.
+
+* Use cases
+
+GN has many use cases. A non-comprehensive list includes:
+
+** Explore experiments stored in the database
+** Select and explore each phenotype stored in an experiment
+*** Information on experiment, individuals and phenotype
+*** Quick links to external web resources
+
+When information is available one can select to visit external websites,
+including UCSC, BioGPS, STRING, PANTHER, Gemma, SynDB, and Allen Brain Atlas (ABA).
+
+
+*** Basic statistics for each phenotype
+
+The basic statistics for each phenotype include probability plots and
+bar graphs which allow checking the data for patterns and outliers.
+
+*** Map QTL for the phenotype using different methods
+
+Mapping methods includen in GN1 are
+
+1. Interval mapping 
+2. Marker regerssiong 
+3. Composite mapping
+4. Pair scan
+
+each with with settings for including parents, weights and
+permutations (when relevant). Before running the mapping GN 
+checks for outliers and can remove them using [[https://en.wikipedia.org/wiki/Winsorising][winsorising]].
+
+** Select multiple phenotypes
+** Compare multiple experiments for genotype by environment
+
+If two studies conducted used the same genotypes but different
+individuals raised in different environments *agree* closely as judged
+by a simple correlation coefficient between measurements across all
+genotypes, then this tells you that the phenotype is robust for
+numerous largely undefined environmental differences among
+laboratories and cohorts. It also tells you that you are likely to be
+dealing with a highly heritable trait that will be a good target for
+genetic dissection and QTL mapping.
 
 * Online tour and tutorial
 
