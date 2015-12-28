@@ -6,7 +6,7 @@
  - [[#python-back-end][Python back-end]]
  - [[#mysql-database][MySQL database]]
  - [[#other-documents][Other documents]]
-     - [[#features-][Features ]]
+   - [[#features-][Features ]]
 
 * Introduction
 
@@ -23,7 +23,7 @@ are:
 4. data on other species such as Rat, Arabidopsis etc., also in the database
 
 Unlike most genetic web based tools GN allows for *interactive*
-exploration of new and existing datasets over the web with on the fly
+exploration of new and existing datasets over the web with on-the-fly
 calculations.
 
 The GN1 architecture consists of an HTML/JS front-end and Python with
@@ -33,15 +33,74 @@ a MySQL database backend.
 Web2.0 edition termed [[http://gn2.genenetwork.org/][Genenetwork2]]. See also the [[Genenetwork2
 documents]] (TODO).
 
-
 * HTML front-end
 
 * Python back-end
 
 * MySQL database
 
+In GN2 the following files refer to SQL
+
+genotype_files/genotypes/process.py
+wqflask/base/data_set.py
+wqflask/base/mrna_assay_tissue_data.py
+wqflask/base/species.py
+wqflask/base/trait.py
+wqflask/cfg/default_settings.py
+wqflask/dbFunction/webqtlDatabaseFunction.py
+wqflask/flask_security/datastore.py
+wqflask/flask_security/__init__.py
+wqflask/maintenance/dataset/correlations.py
+wqflask/maintenance/dataset/datastructure.py
+wqflask/maintenance/dataset/genotypes.py
+wqflask/maintenance/dataset/load_genotypes.py
+wqflask/maintenance/dataset/load_phenotypes.py
+wqflask/maintenance/dataset/phenotypes.py
+wqflask/maintenance/dataset/probesets.py
+wqflask/maintenance/dataset/utilities.py
+wqflask/maintenance/generate_probesetfreeze_file.py
+wqflask/maintenance/gen_select_dataset.py
+wqflask/maintenance/quick_search_table.py
+wqflask/other_config/dot.pylintrc
+wqflask/other_config/pylintrc
+wqflask/utility/AJAX_table.py
+wqflask/utility/db_tools.py
+wqflask/wqflask/collect.py
+wqflask/wqflask/correlation/correlation_functions.py
+wqflask/wqflask/correlation_matrix/show_corr_matrix.py
+wqflask/wqflask/correlation/show_corr_results.py
+wqflask/wqflask/database.py
+wqflask/wqflask/docs.py
+wqflask/wqflask/do_search.py
+wqflask/wqflask/gsearch.py
+wqflask/wqflask/heatmap/heatmap.py
+wqflask/wqflask/interval_analyst/IntervalAnalystPage.py
+wqflask/wqflask/marker_regression/marker_regression_gn1.py
+wqflask/wqflask/marker_regression/MarkerRegressionPage.py
+wqflask/wqflask/model.py
+wqflask/wqflask/my_pylmm/data/load_genotypes_lei.py
+wqflask/wqflask/news.py
+wqflask/wqflask/show_trait/show_trait_page.py
+wqflask/wqflask/show_trait/show_trait.py
+wqflask/wqflask/user_manager.py
+wqflask/wqflask/views.py
+
+and these refer to alchemy too:
+
+wqflask/cfg/default_settings.py
+wqflask/maintenance/quick_search_table.py
+wqflask/maintenance/gen_select_dataset.py
+wqflask/wqflask/database.py
+wqflask/wqflask/views.py
+wqflask/wqflask/model.py
+wqflask/wqflask/user_manager.py
+wqflask/wqflask/collect.py
+wqflask/flask_security/datastore.py
+wqflask/flask_security/__init__.py
+
+
 * Other documents
 
 ** Features 
 
-Explore features in the [[https://github.com/genenetwork/gndesign/blob/master/doc/GN1/gn1_features.org][Genenetwork1 Features]] document.
+   Explore features in the [[https://github.com/genenetwork/gndesign/blob/master/doc/GN1/gn1_features.org][Genenetwork1 Features]] document.

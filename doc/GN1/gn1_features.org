@@ -3,20 +3,21 @@
 * Table of Contents 							:TOC:
  - [[#introduction][Introduction]]
  - [[#use-cases][Use cases]]
-     - [[#explore-experiments-stored-in-the-database][Explore experiments stored in the database]]
-     - [[#select-and-explore-each-phenotype-stored-in-an-experiment][Select and explore each phenotype stored in an experiment]]
-     - [[#select-multiple-phenotypes][Select multiple phenotypes]]
-     - [[#compare-multiple-experiments-for-genotype-by-environment][Compare multiple experiments for genotype by environment]]
+   - [[#explore-experiments-stored-in-the-database][Explore experiments stored in the database]]
+   - [[#select-and-explore-each-phenotype-stored-in-an-experiment][Select and explore each phenotype stored in an experiment]]
+   - [[#select-multiple-phenotypes][Select multiple phenotypes]]
+   - [[#compare-multiple-experiments-for-genotype-by-environment][Compare multiple experiments for genotype by environment]]
+ - [[#external-tools][External tools]]
  - [[#online-tour-and-tutorial][Online tour and tutorial]]
  - [[#documentation][Documentation]]
  - [[#search][Search]]
-     - [[#species][Species]]
-     - [[#group][Group]]
-     - [[#data-type][Data type]]
-     - [[#data-set][Data set]]
-     - [[#get-any][Get any]]
-     - [[#combined][Combined]]
-     - [[#search-examples][Search examples]]
+   - [[#species][Species]]
+   - [[#group][Group]]
+   - [[#data-type][Data type]]
+   - [[#data-set][Data set]]
+   - [[#get-any][Get any]]
+   - [[#combined][Combined]]
+   - [[#search-examples][Search examples]]
 
 * Introduction
 
@@ -64,6 +65,34 @@ numerous largely undefined environmental differences among
 laboratories and cohorts. It also tells you that you are likely to be
 dealing with a highly heritable trait that will be a good target for
 genetic dissection and QTL mapping.
+
+* External tools
+
+
+cmdCompCorrPage.py:                os.system("%s %swebqtlCmdLine.py correlationComparison %s >/dev/null 2>&1 &" % (webqtlConfig.PythonPath, webqtlConfig.CMDLINEDIR, filename))
+cmdCorrelationPage.py:             os.system("%s %swebqtlCmdLine.py correlation %s >/dev/null 2>&1 &" % (webqtlConfig.PythonPath, webqtlConfig.CMDLINEDIR, filename))
+cmdDirectPlotPage.py:              os.system("%s %swebqtlCmdLine.py directplot %s >/dev/null 2>&1 &" % (webqtlConfig.PythonPath, webqtlConfig.CMDLINEDIR, filename))
+cmdHeatmapPage.py:                 os.system("%s %swebqtlCmdLine.py heatmap %s >/dev/null 2>&1 &" % (webqtlConfig.PythonPath, webqtlConfig.CMDLINEDIR, filename))
+cmdIntervalMappingPage.py:         os.system("%s %swebqtlCmdLine.py interval %s >/dev/null 2>&1 &" % (webqtlConfig.PythonPath, webqtlConfig.CMDLINEDIR, filename))
+cmdMarkerRegressionPage.py:        os.system("%s %swebqtlCmdLine.py markerRegression %s >/dev/null 2>&1 &" % (webqtlConfig.PythonPath, webqtlConfig.CMDLINEDIR, filename))
+cmdNetworkGraphPage.py:            os.system("%s %swebqtlCmdLine.py networkGraph %s >/dev/null 2>&1 &" % (webqtlConfig.PythonPath, webqtlConfig.CMDLINEDIR, filename))
+cmdPartialCorrelationPage.py:      os.system("%s %swebqtlCmdLine.py partialCorrelation %s >/dev/null 2>&1 &" % (webqtlConfig.PythonPath, webqtlConfig.CMDLINEDIR, filename))
+cmdQTLminerPage.py:                os.system("%s %swebqtlCmdLine.py QTLminer %s >/dev/null 2>&1 &" % (webqtlConfig.PythonPath, webqtlConfig.CMDLINEDIR, filename))
+cmdShowAllPage2.py:                os.system("%s %swebqtlCmdLine.py genreport2 %s >/dev/null 2>&1 &" % (webqtlConfig.PythonPath, webqtlConfig.CMDLINEDIR, filename))
+cmdShowAllPage.py:                 os.system("%s %swebqtlCmdLine.py genreport %s >/dev/null 2>&1 &" % (webqtlConfig.PythonPath, webqtlConfig.CMDLINEDIR, filename))
+cmdSnpBrowserResultPage.py:        os.system("%s %swebqtlCmdLine.py snpbrowser %s >/dev/null 2>&1 &" % (webqtlConfig.PythonPath, webqtlConfig.CMDLINEDIR, filename))
+cmdTissueCorrelationResultPage.py: os.system("%s %swebqtlCmdLine.py tissueCorrelation %s >/dev/null 2>&1 &" % (webqtlConfig.PythonPath, webqtlConfig.CMDLINEDIR, filename))
+
+in GN2 less calls go out (rqtl, gemma, plink, pylmm)
+
+wqflask/wqflask/marker_regression/marker_regression.py:        os.system(gemma_command)
+wqflask/wqflask/marker_regression/marker_regression.py:        os.system(rqtl_command)
+wqflask/wqflask/marker_regression/marker_regression.py:        os.system(plink_command)
+wqflask/wqflask/marker_regression/marker_regression.py:        os.system(pylmm_command)
+wqflask/wqflask/marker_regression/gemma_mapping.py:            os.system(gemma_command)
+wqflask/wqflask/marker_regression/MarkerRegressionPage.py:     os.system(plink_command)
+wqflask/wqflask/heatmap/heatmap.py:                            os.system(pylmm_command)
+
 
 * Online tour and tutorial
 
